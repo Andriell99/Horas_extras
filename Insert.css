@@ -1,0 +1,68 @@
+/* Estilos para o body */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2E4053; /* Fundo escuro */
+    color: #FDFEFE; /* Texto branco */
+    height: 100vh;
+}
+
+/* Estilos para o header */
+header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Estilos para a section */
+section {
+    background-color: #34495E; /* Fundo azul acinzentado claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+/* Estilos para o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para os labels */
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilos para os inputs */
+input[type="text"],
+input[type="date"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #BFC9CA; /* Borda cinza claro pastel */
+    border-radius: 5px;
+    background-color: #2E4053; /* Fundo escuro */
+    color: #FDFEFE; /* Texto branco */
+}
+
+/* Estilos para o botão */
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5DADE2; /* Azul vibrante */
+    color: #FDFEFE; /* Texto branco */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilos para o botão ao passar o mouse */
+button[type="submit"]:hover {
+    background-color: #AED6F1; /* Azul pastel */
+}

@@ -1,0 +1,84 @@
+/* Estilos para o body */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2E4053; /* Fundo escuro */
+    color: #FDFEFE; /* Texto branco */
+    height: 100vh;
+}
+
+/* Estilos para o header */
+h1 {
+    margin-top: 20px;
+}
+
+/* Estilos para o formulário */
+form {
+    background-color: #34495E; /* Fundo azul acinzentado claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 90%;
+    margin-top: 20px;
+}
+
+/* Estilos para a tabela */
+table {
+    width: 100%; /* Expande a tabela para ocupar toda a largura disponível */
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Estilos para os cabeçalhos da tabela */
+th {
+    background-color: #5DADE2; /* Azul vibrante */
+    padding: 10px;
+    border: 1px solid #BFC9CA; /* Borda cinza claro pastel */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Estilos para as células da tabela */
+td {
+    background-color: #2E4053; /* Fundo escuro */
+    padding: 10px;
+    border: 1px solid #BFC9CA; /* Borda cinza claro pastel */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Estilos para as linhas selecionáveis */
+.linha-selecionavel {
+    cursor: pointer;
+}
+
+.linha-selecionavel:hover {
+    background-color: #5DADE2; /* Azul vibrante */
+}
+
+/* Estilos para o input checkbox */
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; /* Torna o checkbox circular */
+    cursor: pointer;
+}
+
+/* Estilos para o botão */
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E74C3C; /* Vermelho vibrante */
+    color: #FDFEFE; /* Texto branco */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Espaço acima do botão */
+}
+
+/* Estilos para o botão ao passar o mouse */
+button[type="submit"]:hover {
+    background-color: #F1948A; /* Vermelho pastel */
+}
